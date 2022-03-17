@@ -39,6 +39,8 @@ main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(13, 45, 226)
 main.Position = UDim2.new(0.230377153, 0, 0.142566189, 0)
 main.Size = UDim2.new(0, 565, 0, 351)
+main.Active = true
+main.Draggable = true
 
 UICorner.Parent = main
 
