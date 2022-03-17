@@ -1,0 +1,328 @@
+-- By Dylan not urs stupid
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local GoodScript = Instance.new("TextButton")
+local Autofarm = Instance.new("TextButton")
+local Player = Instance.new("TextButton")
+local GoodTab = Instance.new("Frame")
+local Dimag = Instance.new("TextButton")
+local Artic = Instance.new("TextButton")
+local Ray = Instance.new("TextButton")
+local Hood = Instance.new("TextButton")
+local PlayerTab = Instance.new("Frame")
+local Korblox = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(13, 45, 226)
+main.Position = UDim2.new(0.230377153, 0, 0.142566189, 0)
+main.Size = UDim2.new(0, 565, 0, 351)
+
+UICorner.Parent = main
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(19, 145, 255)
+Frame.Size = UDim2.new(0, 565, 0, 32)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.122123897, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 32)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Ben X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 18.000
+
+UICorner_2.Parent = Frame
+
+ImageButton.Parent = main
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.823008835, 0, 0, 0)
+ImageButton.Size = UDim2.new(0, 100, 0, 100)
+ImageButton.Image = "http://www.roblox.com/asset/?id=9064980787"
+
+UICorner_3.Parent = ImageButton
+
+Frame_2.Parent = main
+Frame_2.BackgroundColor3 = Color3.fromRGB(13, 45, 226)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 255, 238)
+Frame_2.Position = UDim2.new(0, 0, 0.0911680907, 0)
+Frame_2.Size = UDim2.new(0, 124, 0, 304)
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0483870953, 0, 0.0296052638, 0)
+TextLabel_2.Size = UDim2.new(0, 109, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Click Ben To Close the Gui"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0564516112, 0, 0.223684222, 0)
+TextLabel_3.Size = UDim2.new(0, 109, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Credits:"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0483870953, 0, 0.417763174, 0)
+TextLabel_4.Size = UDim2.new(0, 109, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Scripted By 6Экс#0001"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Frame_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0564516112, 0, 0.608552635, 0)
+TextLabel_5.Size = UDim2.new(0, 109, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "UI Design By 6Экс#0001"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Frame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0564516112, 0, 0.796052635, 0)
+TextLabel_6.Size = UDim2.new(0, 109, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Version 1.0 Have a Good Day/Night :)"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = main
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.43185842, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 32)
+TextLabel_7.Font = Enum.Font.GothamBold
+TextLabel_7.Text = "https://discord.gg/dRSzmdkFvd"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+GoodScript.Name = "GoodScript"
+GoodScript.Parent = main
+GoodScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GoodScript.BackgroundTransparency = 1.000
+GoodScript.Position = UDim2.new(0.231858417, 0, 0.333333343, 0)
+GoodScript.Size = UDim2.new(0, 153, 0, 42)
+GoodScript.Font = Enum.Font.GothamBold
+GoodScript.Text = "Good Scripts"
+GoodScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+GoodScript.TextSize = 14.000
+
+Autofarm.Name = "Autofarm"
+Autofarm.Parent = main
+Autofarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm.BackgroundTransparency = 1.000
+Autofarm.Position = UDim2.new(0.231858447, 0, 0.498575449, 0)
+Autofarm.Size = UDim2.new(0, 153, 0, 42)
+Autofarm.Font = Enum.Font.GothamBold
+Autofarm.Text = "Auto Farm"
+Autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm.TextSize = 14.000
+Autofarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/3L5CTn8J'))() 
+end)
+
+Player.Name = "Player"
+Player.Parent = main
+Player.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Player.BackgroundTransparency = 1.000
+Player.Position = UDim2.new(0.231858447, 0, 0.165242165, 0)
+Player.Size = UDim2.new(0, 153, 0, 42)
+Player.Font = Enum.Font.GothamBold
+Player.Text = "Player"
+Player.TextColor3 = Color3.fromRGB(255, 255, 255)
+Player.TextSize = 14.000
+
+GoodTab.Name = "GoodTab"
+GoodTab.Parent = main
+GoodTab.BackgroundColor3 = Color3.fromRGB(13, 45, 226)
+GoodTab.BorderColor3 = Color3.fromRGB(0, 251, 255)
+GoodTab.Position = UDim2.new(0.541592896, 0, 0.301994294, 0)
+GoodTab.Size = UDim2.new(0, 250, 0, 230)
+GoodTab.Visible = false
+
+Dimag.Name = "Dimag"
+Dimag.Parent = GoodTab
+Dimag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dimag.BackgroundTransparency = 1.000
+Dimag.Position = UDim2.new(0.211999997, 0, 0.0130434781, 0)
+Dimag.Size = UDim2.new(0, 144, 0, 41)
+Dimag.Font = Enum.Font.GothamBold
+Dimag.Text = "Dimag X"
+Dimag.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dimag.TextSize = 14.000
+Dimag.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+Artic.Name = "Artic"
+Artic.Parent = GoodTab
+Artic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Artic.BackgroundTransparency = 1.000
+Artic.Position = UDim2.new(0.211999997, 0, 0.230434805, 0)
+Artic.Size = UDim2.new(0, 144, 0, 50)
+Artic.Font = Enum.Font.GothamBold
+Artic.Text = "Artic"
+Artic.TextColor3 = Color3.fromRGB(255, 255, 255)
+Artic.TextSize = 14.000
+Artic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+Ray.Name = "Ray"
+Ray.Parent = GoodTab
+Ray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ray.BackgroundTransparency = 1.000
+Ray.Position = UDim2.new(0.211999997, 0, 0.482608676, 0)
+Ray.Size = UDim2.new(0, 144, 0, 50)
+Ray.Font = Enum.Font.GothamBold
+Ray.Text = "Ray X"
+Ray.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ray.TextSize = 14.000
+Ray.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+Hood.Name = "Hood"
+Hood.Parent = GoodTab
+Hood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hood.BackgroundTransparency = 1.000
+Hood.Position = UDim2.new(0.211999997, 0, 0.730434775, 0)
+Hood.Size = UDim2.new(0, 144, 0, 50)
+Hood.Font = Enum.Font.GothamBold
+Hood.Text = "Da Hood Gui"
+Hood.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hood.TextSize = 14.000
+Hood.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ezmicupballs/Da-Hood-Gui-By-Dylan/main/Lua"))()
+end)
+
+PlayerTab.Name = "PlayerTab"
+PlayerTab.Parent = main
+PlayerTab.BackgroundColor3 = Color3.fromRGB(13, 45, 226)
+PlayerTab.BorderColor3 = Color3.fromRGB(0, 255, 226)
+PlayerTab.Position = UDim2.new(0.541999936, 0, 0.301999986, 0)
+PlayerTab.Size = UDim2.new(0, 249, 0, 229)
+PlayerTab.Visible = false
+
+Korblox.Name = "Korblox"
+Korblox.Parent = PlayerTab
+Korblox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Korblox.BackgroundTransparency = 1.000
+Korblox.Position = UDim2.new(0.228915662, 0, 0.0436681211, 0)
+Korblox.Size = UDim2.new(0, 152, 0, 50)
+Korblox.Font = Enum.Font.GothamBold
+Korblox.Text = "Korblox & Headless"
+Korblox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Korblox.TextSize = 18.000
+Korblox.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+		if (v:IsA("Decal")) then
+			v.Transparency = 1
+		end
+	end
+
+	local ply = game.Players.LocalPlayer
+	local chr = ply.Character
+	chr.RightLowerLeg.MeshId = "902942093"
+	chr.RightLowerLeg.Transparency = "1"
+	chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+	chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+	chr.RightFoot.MeshId = "902942089"
+	chr.RightFoot.Transparency = "1"
+end)
+
+TextLabel_8.Parent = PlayerTab
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.132530123, 0, 0.388646275, 0)
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Font = Enum.Font.GothamBold
+TextLabel_8.Text = "Among us balls"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+-- Scripts:
+
+local function MKVQ_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(MKVQ_fake_script)()
+local function PNRIU_fake_script() -- GoodScript.LocalScript 
+	local script = Instance.new('LocalScript', GoodScript)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.GoodTab.Visible = true
+		script.Parent.Parent.PlayerTab.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(PNRIU_fake_script)()
+local function ICJFS_fake_script() -- Player.LocalScript 
+	local script = Instance.new('LocalScript', Player)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.PlayerTab.Visible = true
+		script.Parent.Parent.GoodTab.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(ICJFS_fake_script)()
