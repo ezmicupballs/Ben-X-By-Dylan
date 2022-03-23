@@ -1,4 +1,4 @@
--- By Dylan not urs
+-- By Dylan and Ryan not urs
 
 -- Instances:
 
@@ -19,6 +19,10 @@ local AnimationChanger = Instance.new("TextButton")
 local OPScriptsTab = Instance.new("Frame")
 local DaHoodGui = Instance.new("TextButton")
 local AutoFarm = Instance.new("TextButton")
+local Dimag = Instance.new("TextButton")
+local Raycode = Instance.new("TextButton")
+local artic = Instance.new("TextButton")
+local ray = Instance.new("TextButton")
 local Ben = Instance.new("ImageButton")
 local UICorner_3 = Instance.new("UICorner")
 
@@ -88,7 +92,7 @@ TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.Position = UDim2.new(0.075630255, 0, 0.682539701, 0)
 TextLabel_2.Size = UDim2.new(0, 102, 0, 78)
 TextLabel_2.Font = Enum.Font.GothamBold
-TextLabel_2.Text = "Version: V2 Have a Good Day/Night :)"
+TextLabel_2.Text = "Version: V3 Have a Good Day/Night :)"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -151,7 +155,7 @@ AnimationChanger.Text = "Animation Changer"
 AnimationChanger.TextColor3 = Color3.fromRGB(0, 0, 0)
 AnimationChanger.TextSize = 14.000
 AnimationChanger.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/HogRider123/Animation-Changer-Pro/main/Loader%20Cus%20Epik%20Pro", true))() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HogRider123/Animation-Changer-Pro/main/Loader%20Cus%20Epik%20Pro", true))()
 end)
 
 OPScriptsTab.Name = "OPScriptsTab"
@@ -187,6 +191,58 @@ AutoFarm.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
 end)
 
+Dimag.Name = "Dimag"
+Dimag.Parent = OPScriptsTab
+Dimag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dimag.Position = UDim2.new(0.0404255316, 0, 0.263157904, 0)
+Dimag.Size = UDim2.new(0, 200, 0, 50)
+Dimag.Font = Enum.Font.GothamBold
+Dimag.Text = "Dimag X"
+Dimag.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dimag.TextSize = 14.000
+Dimag.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+Raycode.Name = "Raycode"
+Raycode.Parent = OPScriptsTab
+Raycode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Raycode.Position = UDim2.new(0.514893591, 0, 0.263157904, 0)
+Raycode.Size = UDim2.new(0, 200, 0, 50)
+Raycode.Font = Enum.Font.GothamBold
+Raycode.Text = "RayCode X"
+Raycode.TextColor3 = Color3.fromRGB(0, 0, 0)
+Raycode.TextSize = 14.000
+Raycode.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+artic.Name = "artic"
+artic.Parent = OPScriptsTab
+artic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+artic.Position = UDim2.new(0.0404255316, 0, 0.480263144, 0)
+artic.Size = UDim2.new(0, 200, 0, 50)
+artic.Font = Enum.Font.GothamBold
+artic.Text = "Artic"
+artic.TextColor3 = Color3.fromRGB(0, 0, 0)
+artic.TextSize = 14.000
+artic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+ray.Name = "ray"
+ray.Parent = OPScriptsTab
+ray.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ray.Position = UDim2.new(0.514893591, 0, 0.480263144, 0)
+ray.Size = UDim2.new(0, 200, 0, 50)
+ray.Font = Enum.Font.GothamBold
+ray.Text = "Ray X"
+ray.TextColor3 = Color3.fromRGB(0, 0, 0)
+ray.TextSize = 14.000
+ray.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
 Ben.Name = "Ben"
 Ben.Parent = main
 Ben.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -198,7 +254,7 @@ UICorner_3.Parent = Ben
 
 -- Scripts:
 
-local function QVHF_fake_script() -- PlayerScripts.LocalScript 
+local function ZUINY_fake_script() -- PlayerScripts.LocalScript 
 	local script = Instance.new('LocalScript', PlayerScripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -207,8 +263,8 @@ local function QVHF_fake_script() -- PlayerScripts.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(QVHF_fake_script)()
-local function SWWONCX_fake_script() -- OPScripts.LocalScript 
+coroutine.wrap(ZUINY_fake_script)()
+local function HQSA_fake_script() -- OPScripts.LocalScript 
 	local script = Instance.new('LocalScript', OPScripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -217,8 +273,8 @@ local function SWWONCX_fake_script() -- OPScripts.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(SWWONCX_fake_script)()
-local function YJAHBZD_fake_script() -- Ben.LocalScript 
+coroutine.wrap(HQSA_fake_script)()
+local function QNGIETB_fake_script() -- Ben.LocalScript 
 	local script = Instance.new('LocalScript', Ben)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -229,8 +285,8 @@ local function YJAHBZD_fake_script() -- Ben.LocalScript
 	
 	
 end
-coroutine.wrap(YJAHBZD_fake_script)()
-local function CACOQAJ_fake_script() -- main.LocalScript 
+coroutine.wrap(QNGIETB_fake_script)()
+local function YTXMY_fake_script() -- main.LocalScript 
 	local script = Instance.new('LocalScript', main)
 
 	local Plr = game.Players.LocalPlayer
@@ -249,4 +305,4 @@ local function CACOQAJ_fake_script() -- main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CACOQAJ_fake_script)()
+coroutine.wrap(YTXMY_fake_script)()
